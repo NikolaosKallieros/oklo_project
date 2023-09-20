@@ -1,7 +1,5 @@
 clear;clc;close all;
-%% create hexagonal pattern 
-x_original = 1:1:10;
-y_original = 1:1:10;
+load power_dist % array of power distributions per channel at BOC 
 %%
 x1 = [1 1.4 5 4 6 6.6];
 figure 

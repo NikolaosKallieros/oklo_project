@@ -1,4 +1,5 @@
 clear;clc;close all;
+%% script to initialize SIMSCAPE simulations 
 %% initial temperatures 
 nak_initial = 300; % K
 pool_initial = 377+273; % K
